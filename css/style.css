@@ -1,0 +1,111 @@
+@charset"utf-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "遊ゴシック", serif, sans-serif
+  
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-img img {
+  margin: 70px 0 0;
+}
+
+.header-list {
+  color: white;
+  background-image: url(../img/pexels-photo-2098427.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 3px 1px #808080;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu nav ul {
+  display: flex;
+}
+
+.menu nav ul li a {
+  background: yellowgreen;
+  margin-left: 15px;
+  padding: 17px;
+  box-shadow: 8px 8px 4px black;
+}
+
+.header-name {
+  font-size: 30px;
+}
+
+main {
+  text-align: center;
+  display: block;
+  padding: 0 auto;
+}
+
+.career h1 {
+  font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  font-size: 30px;
+}
+
+.career-EX {
+  /* width: 500px; */
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  font-weight: bold;
+  
+}
+
+.career-EX span {
+  display: block;
+  margin: 0 0 0 90px;
+}
+
+/* main {
+  text-align: center;
+  display: block;
+  padding: 0 auto;
+} */
+
+.hobby h1 {
+  background-color: yellowgreen;
+  width: 200px;
+  display: inline-block;
+  box-shadow: 4px 4px 4px black;
+}
+
+.school-days {
+  width: 500px;
+  display: inline-block;
+  text-align-last: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.prospect {
+  width: 500px;
+  display: inline-block;
+}
